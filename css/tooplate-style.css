@@ -98,6 +98,11 @@ body {
 .bar .progress-line.mysql span{
   width: 75%;
 }
+
+.bar .progress-line.aws span{
+  width: 85%;
+}
+
 .progress-line span::before{
   position: absolute;
   content: "";
