@@ -100,7 +100,7 @@ body {
 }
 
 .bar .progress-line.aws span{
-  width: 85%;
+  width: 80%;
 }
 
 .progress-line span::before{
@@ -150,7 +150,9 @@ body {
 .progress-line.mysql span::after{
   content: "75%";
 }
-
+.progress-line.aws span::after{
+  content: "80%";
+}
 
 /* ------------------------------------------ */
 
